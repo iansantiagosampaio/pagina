@@ -1,0 +1,19 @@
+.title {
+    color: white;          /* Cor do texto */
+    font-size: 48px;     /* Tamanho da fonte */
+    text-align: center;    /* Alinha à esquerda */
+    
+}
+body {
+    background-color: #008060; /* Cor de fundo azul claro */
+}
+
+img{
+width: 10vw;
+height: 5vw;
+}
+.logo{
+display: flex;
+align-items: center;
+justify-content: center;
+}
