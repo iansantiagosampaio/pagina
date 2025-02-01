@@ -1,19 +1,60 @@
 .title {
-    color: white;          /* Cor do texto */
-    font-size: 48px;     /* Tamanho da fonte */
-    text-align: center;    /* Alinha à esquerda */
-    
-}
-body {
-    background-color: #008060; /* Cor de fundo azul claro */
+    color: white;
+    /* Cor do texto */
+    font-size: 48px;
+    /* Tamanho da fonte */
+    text-align: center;
+    /* Alinha à esquerda */
+
 }
 
-img{
-width: 10vw;
-height: 5vw;
+
+img {
+    width: 10vw;
+    height: 5vw;
 }
-.logo{
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+
+}
+
+.sabo {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.tex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.black {
+    color: white;
+    background-color: black;
+}
+
+.menos {
+    text-align: center;
+}
+
+.imgBack {
+    background-image: url("./green-website-banner-png-12.png");
+    background-size: cover;
+}
+.cart {
+   justify-content: center; 
 display: flex;
-align-items: center;
-justify-content: center;
+ align-items: center;
+ 
 }
